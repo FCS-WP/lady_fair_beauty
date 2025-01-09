@@ -1,0 +1,27 @@
+.shop-container {
+  .product {
+    .woocommerce-loop-product__title {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      height: 70px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* number of lines to show */
+      line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+    .price {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      margin-bottom: 15px !important;
+    }
+    .button {
+      margin-left: 15px;
+    }
+  }
+}
+.elementor-widget-heading
+  .elementor-heading-title[class*="elementor-size-"]
+  > a {
+  text-decoration: none;
+}
